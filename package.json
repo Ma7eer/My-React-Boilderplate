@@ -1,0 +1,26 @@
+{
+  "name": "react-boilderplate",
+  "version": "0.0.1",
+  "description": "My own react boilderplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ma7eer/My-React-Boilderplate.git"
+  },
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "Maher Alkendi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ma7eer/My-React-Boilderplate/issues"
+  },
+  "homepage": "https://github.com/Ma7eer/My-React-Boilderplate#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

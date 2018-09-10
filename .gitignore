@@ -1,0 +1,10 @@
+# Node
+node_modules/
+# Webstorm
+.idea/
+#vscode
+.vscode/
+# Project
+dist/
+# logs
+npm-debug.log*
