@@ -11,7 +11,7 @@ class ExpressWebServer {
     return new Promise((resolve, reject) => {
       try {
         this.server = this.app.listen(PORT, function () {
-          console.log(`Server is listening at port ${PORT}`);
+          // console.log(`Server is listening at port ${PORT}`);
           resolve();
         })
       } catch(error) {
