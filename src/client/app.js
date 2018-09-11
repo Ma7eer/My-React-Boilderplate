@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class App extends Component {
   render() {
     return (
-      <div>Welcome to React Boilerplate App</div>
+      <div>Welcome to React Boilerplate App!</div>
     );
   }
 }
