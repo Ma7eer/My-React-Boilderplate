@@ -10,7 +10,8 @@
     "build-babel-client": "babel src/client --copy-files --out-dir ./dist/public",
     "start": "node ./dist/server.js",
     "test": "jest ./src",
-    "clean": "rimraf dist node_modules"
+    "clean": "rimraf dist node_modules",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -45,6 +46,9 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
+    "eslint": "^5.5.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-react": "^7.11.1",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "react-test-renderer": "^16.5.0",

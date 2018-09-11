@@ -1,7 +1,7 @@
 import express from 'express';
 
 class ExpressWebServer {
-  constructor () {
+  constructor() {
     this.app = express();
     this.app.use(express.static('dist/public')); //use static files at the dist/ directory
   }
@@ -11,14 +11,14 @@ class ExpressWebServer {
     return new Promise((resolve, reject) => {
       try {
         this.server = this.app.listen(PORT, function () {
-          // console.log(`Server is listening at port ${PORT}`);
           resolve();
-        })
-      } catch(error) {
+        });
+      } catch (error) {
+        // eslint-disable-next-line no-console
         console.error(error);
         reject(error);
       }
-    })
+    });
   }
 
   stop() {
@@ -26,12 +26,13 @@ class ExpressWebServer {
       try {
         this.server.close(() => {
           resolve();
-        })
-      } catch(error) {
+        });
+      } catch (error) {
+        // eslint-disable-next-line no-console
         console.error(error.message);
         reject(error);
       }
-    })
+    });
   }
 }
 
