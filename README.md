@@ -7,7 +7,8 @@ My boilderplate features:
 
 * Webpack 4
 * eslint
-* cache busting (currently building...)
+* cache busting 
+* CSS-Loaders (currently building...)
 * Even more in the works!
 
 ## Setup
