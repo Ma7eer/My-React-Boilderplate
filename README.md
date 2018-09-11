@@ -9,7 +9,8 @@ My boilderplate features:
 * eslint
 * cache busting 
 * CSS-Loaders 
-* nodemon (currently building...)
+* nodemon 
+* Replace Express with webpack dev server (currently building...)
 * Even more in the works!
 
 ## Setup
