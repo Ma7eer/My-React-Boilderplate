@@ -6,7 +6,8 @@ I've used the article as reference but added to it as well.
 My boilderplate features: 
 
 * Webpack 4
-* eslint (currently building)
+* eslint
+* cache busting (currently building...)
 * Even more in the works!
 
 ## Setup
