@@ -6,7 +6,7 @@ class App extends Component {
       <div>
         <h1>Welcome to My Starter App</h1>
       </div>
-    )
+    );
   }
 }
 
