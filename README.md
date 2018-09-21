@@ -12,6 +12,7 @@ My boilerplate features:
 * eslint
 * CSS-Loaders & Style-loader
 * babel
+* Hot Reloading
 
 ## Setup
 
